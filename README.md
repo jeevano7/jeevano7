@@ -1,111 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeevan MD's Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            background: linear-gradient(to bottom, #1a202c, #2d3748);
-            color: #e2e8f0;
-            font-family: 'Inter', sans-serif;
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        .card {
-            background: #2d3748;
-            border-radius: 0.5rem;
-            padding: 2rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .icon:hover {
-            transform: scale(1.1);
-            transition: transform 0.3s ease;
-        }
-    </style>
-</head>
-<body>
-    <div class="container mx-auto px-4">
-        <header class="text-center mb-12">
-            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Hi 👋, I'm Jeevan MD</h1>
-            <h3 class="text-xl md:text-2xl text-gray-300">Bridging Development & Operations with Passion</h3>
-        </header>
+# 💫 About Me:
+🔭 I’m currently working on developing a movie ticketing system using FastAPI and MongoDB, deployed on Render with Docker, and building a CI/CD pipeline using Jenkins and Docker to automate testing and deployment.<br><br>👯 I’m looking to collaborate on open-source Python-based projects like FastAPI APIs or machine learning projects involving sentiment analysis with scikit-learn.<br><br>🤝 I’m looking for help with learning Kubernetes basics for deploying Dockerized apps and integrating secrets management in Jenkins pipelines.<br><br>🌱 I’m currently learning Jenkins pipeline scripting, Kubernetes basics like pods and deployments, and machine learning fundamentals with scikit-learn.<br><br>💬 Ask me about building CI/CD pipelines with Jenkins and Docker, coding C++ for algorithmic challenges.<br>⚡ Fun fact: My first Python script was a grocery list tracker to never forget veggies, sparking my love for practical apps!
 
-        <div class="flex flex-col md:flex-row gap-8">
-            <!-- Left Section: Profile Info -->
-            <div class="md:w-1/2">
-                <div class="card">
-                    <div class="flex items-center mb-4">
-                        <img src="https://komarev.com/ghpvc/?username=jeevano7&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" class="mr-4">
-                        <img src="https://github-profile-trophy.vercel.app/?username=jeevano7" alt="Trophies" class="w-full max-w-md">
-                    </div>
-                    <p class="text-lg mb-4">🌱 I’m currently learning <strong>Jenkins, AWS, K8</strong></p>
-                    <p class="text-lg">📫 How to reach me: <strong>jeevanmdwork@gmail.com</strong></p>
-                </div>
 
-                <!-- Connect Section -->
-                <div class="card mt-6">
-                    <h3 class="text-2xl font-semibold mb-4">Connect with me:</h3>
-                    <div class="flex space-x-4">
-                        <!-- Add your social links here, e.g., LinkedIn, Twitter -->
-                        <a href="#" class="text-gray-300 hover:text-white">LinkedIn</a>
-                        <a href="#" class="text-gray-300 hover:text-white">Twitter</a>
-                    </div>
-                </div>
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Jeevan MD) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:jeevanmdwork@gmail.com) 
 
-                <!-- Languages and Tools -->
-                <div class="card mt-6">
-                    <h3 class="text-2xl font-semibold mb-4">Languages and Tools:</h3>
-                    <div class="flex flex-wrap gap-4">
-                        <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" class="w-12 h-12 icon">
-                        </a>
-                        <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" class="w-12 h-12 icon">
-                        </a>
-                        <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" class="w-12 h-12 icon">
-                        </a>
-                        <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
-                            <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" class="w-12 h-12 icon">
-                        </a>
-                        <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-                            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" class="w-12 h-12 icon">
-                        </a>
-                        <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" class="w-12 h-12 icon">
-                        </a>
-                        <a href="https://postman.com" target="_blank" rel="noreferrer">
-                            <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" class="w-12 h-12 icon">
-                        </a>
-                        <a href="https://www.python.org" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" class="w-12 h-12 icon">
-                        </a>
-                        <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer">
-                            <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" class="w-12 h-12 icon">
-                        </a>
-                        <a href="https://unity.com/" target="_blank" rel="noreferrer">
-                            <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" class="w-12 h-12 icon">
-                        </a>
-                    </div>
-                </div>
-            </div>
+# 💻 Tech Stack:
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=flat&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=flat&logo=jenkins&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=flat&logo=framer&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=flat&logo=swagger&logoColor=white) ![Riot Games](https://img.shields.io/badge/riotgames-D32936.svg?style=flat&logo=riotgames&logoColor=white) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=flat&logo=unity&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=jeevano7&theme=dracula&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=jeevano7&theme=dracula&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=jeevano7&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-            <!-- Right Section: Image and Stats -->
-            <div class="md:w-1/2">
-                <img src="https://cdn.dribbble.com/users/235897/screenshots/1712148/3dprinter.gif" alt="coding" class="w-full max-w-md mx-auto mb-6 rounded-lg shadow-lg">
-                <div class="card">
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jeevano7&show_icons=true&locale=en&layout=compact" alt="Top Languages" class="w-full mb-4">
-                    <img src="https://github-readme-stats.vercel.app/api?username=jeevano7&show_icons=true&locale=en" alt="Stats" class="w-full mb-4">
-                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeevano7&" alt="Streak" class="w-full">
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=jeevano7&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+---
+[![](https://visitcount.itsvg.in/api?id=jeevano7&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
